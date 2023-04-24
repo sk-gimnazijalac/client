@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './carousel.css';
+
+*,
+html {
+  scroll-behavior: smooth !important;
+}
+
+html,
+body {
+  background-color: #fafbfc;
+  padding: 0;
+  margin: 0;
+  font-family: 'Barlow', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+tr:nth-child(even) {
+  background: rgb(247, 247, 247);
+}
+tr:nth-child(odd) {
+  background: rgb(255, 255, 255);
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+p {
+  font-size: 16px;
+}
+
+.main-container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 90px 15px 20px 15px;
+}
+
+.table-title-min-width {
+  display: inline-block;
+  width: 100px;
+}
+
+.app-background-color {
+  background-color: #f8fdef;
+}
+
+.nav-background-color {
+  background-color: #124559;
+}
+
+.text-color {
+  color: #01161e;
+}
+
+.text-color-header-footer {
+  color: #f8fdef;
+}
+
+.card-bg-color {
+  background-color: #f3f3f3;
+}
