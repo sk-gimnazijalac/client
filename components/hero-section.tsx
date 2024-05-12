@@ -2,23 +2,19 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col md:flex-row">
-      <div className="relative h-[250px] lg:h-[450px] w-full">
-        <div>
-          <Image
-            src="/database/hero-img.jpg"
-            alt="hero image"
-            layout="fill"
-            objectFit="fill"
-            priority={true}
-          />
+    <>
+      <div className="hero w-width lg:h-192 h-96">
+        <div className="w-full">
+        <div className="justify-center lg:p-36 text-center lg:text-left p-16 flex flex-col">
+          <h1 className="lg:text-7xl text-5xl">Gimnazijalac</h1>
+          <h3 className="lg:w-1/2 italic lg:text-2xl text-md pt-4">
+            Šah klub svih bivših, sadašnjih i budućih gimnazijalaca kao i
+            ostalih ljubitelja šaha
+          </h3>
+        </div>
         </div>
       </div>
-      <h1 className="mt-8 text-color italic text-3xl text-left lg:text-4xl mx-6 lg:mt-16  font-semibold uppercase landing-header md:w-4/12">
-        Šah klub svih bivših, sadašnjih i budućih gimnazijalaca kao i ostalih
-        ljubitelja šaha
-      </h1>
-    </div>
+    </>
   )
 }
 

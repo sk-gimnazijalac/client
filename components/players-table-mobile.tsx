@@ -2,7 +2,7 @@ import players from './../public/database/players-page-data/players.json'
 
 const PlayersTableMobile = () => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:hidden">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:hidden p-6">
       {players.map((player) => {
         return (
           <div
