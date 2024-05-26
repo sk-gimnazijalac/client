@@ -14,7 +14,7 @@ const Novosti: NextPage = () => {
       <main className="app-background-color">
         <Layout>
           <h1 className="text-center my-6">Sve novosti</h1>
-          <div className="flex flex-col md:flex-row my-16 gap-6 items-center justify-center md:flex-wrap">
+          <div className="flex flex-col md:flex-row my-16 mx-6 gap-12 items-center justify-center md:flex-wrap">
             {posts.map((value) => {
               return (
                 <div

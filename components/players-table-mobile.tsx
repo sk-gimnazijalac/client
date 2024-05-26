@@ -1,4 +1,5 @@
 import players from './../public/database/players-page-data/players.json'
+import Image from 'next/image'
 
 const PlayersTableMobile = () => {
   return (
@@ -9,11 +10,19 @@ const PlayersTableMobile = () => {
             key={player.id}
             className="bg-white space-y-3 p-4 rounded-lg shadow"
           >
-            <div className="text-sm text-gray-700">
-              <span className="text-sm font-medium text-black table-title-min-width ">
-                Ime:
-              </span>{' '}
-              {player.name + ' ' + player.lastName}
+            <div className="text-sm text-gray-700 flex gap-4">
+              <div className="bg-orange p-2 rounded-full w-8 h-8">
+                <Image
+                  src={'/people-white.svg'}
+                  alt="icon"
+                  height={15}
+                  width={15}
+                />
+              </div>
+
+              <span className="text-lg font-medium text-black ">
+                {player.name + ' ' + player.lastName}
+              </span>
             </div>
             <div className="text-sm text-gray-700">
               <span className="text-sm font-medium text-black table-title-min-width ">
