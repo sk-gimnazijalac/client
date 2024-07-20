@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Ligaska takmicenja",
+    "description": "",
+    "links": [],
+    "teams": [
+      {
+        "name": "A tim",
+        "links": [
+          {
+            "text": "Pregled sezone 2016",
+            "href": "https://chess-results.com/tnr219092.aspx?lan=14&fbclid=IwAR13qEkmq6RpgPpy0TpBGUIHZpqCmnamiW6Z2nMNKgqnYtWk7eJjK8BlDts"
+          },
+          {
+            "text": "Pregled sezone 2017",
+            "href": "https://chess-results.com/tnr279326.aspx?lan=14&fbclid=IwAR1aDlbETRDy3F7kuqdd-KPU0UWMbYPlbV-O9G6UWAyiXP6iSvXKJ8oPmdg"
+          },
+          {
+            "text": "Pregled sezone 2018",
+            "href": "https://chess-results.com/tnr353783.aspx?lan=14&fbclid=IwAR13qEkmq6RpgPpy0TpBGUIHZpqCmnamiW6Z2nMNKgqnYtWk7eJjK8BlDts"
+          },
+          {
+            "text": "Pregled sezone 2019",
+            "href": "https://chess-results.com/tnr433546.aspx?lan=14&fbclid=IwAR17kK8qf55ALqpsuckMKA0gKDbR6zq_jZJhXbIClKt8O2UtCKrS6KCUN6c"
+          },
+          {
+            "text": "Pregled sezone 2020",
+            "href": "https://chess-results.com/tnr533780.aspx?lan=14&fbclid=IwAR0mkU0wuWXixJLMaGtT0xShPPamYm-rhT108WkZO95yyYjZ5QWNxtqMu8E"
+          },
+          {
+            "text": "Pregled sezone 2021",
+            "href": "https://chess-results.com/tnr560351.aspx?lan=14&fbclid=IwAR3SJ47k1K1oALdz6wMIJ7n1RiD-KC2nnFir1aYQ_X9_EAGOKQsVfeCdzS4"
+          },
+          {
+            "text": "Pregled sezone 2022",
+            "href": "https://chess-results.com/tnr634165.aspx?lan=14&art=46&fbclid=IwAR0N5aTTUJ8J2Df_6DDpqQF2XGjj87S5-1t5dykF5FoZGVlle8VJZMWNWgg"
+          }
+        ]
+      },
+      {
+        "name": "B tim",
+        "links": [
+          {
+            "text": "Pregled sezone 2022",
+            "href": "https://chess-results.com/tnr634231.aspx?lan=14&fbclid=IwAR2jQCSFIWMwvPL44XMsHmFszz6jp-C8alj83a82D-cPZjnHVjufvqXUaQM"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Prvenstvo kluba",
+    "description": "Odrzavalo se nezvanično od 2015.godine, a rejtinguje se od 2020. Učešće imaju članovi kluba, pobednici dobijaju prelazni pehar u tri kategorije (Šampion kluba, Juniorski šampion i Pionirski šampion)",
+    "links": [
+      {
+        "href": "https://chess-results.com/tnr501500.aspx?lan=1",
+        "text": "Prvenstvo ŠK 'Gimnazijalac' 2020"
+      },
+      {
+        "href": "https://chess-results.com/tnr589944.aspx?lan=1",
+        "text": "Prvenstvo ŠK 'Gimnazijalac' 2021"
+      },
+      {
+        "href": "https://chess-results.com/tnr701421.aspx?lan=1",
+        "text": "Prvenstvo ŠK 'Gimnazijalac' 2022"
+      }
+    ],
+    "teams": []
+  },
+  {
+    "name": "Turnir tri kluba",
+    "description": "U saradnji sa ŠK „Kulpin“ i ŠK „Kraljev gambit“ ustanovljeno je pojedinačno prvenstvo na kojem prava imaju učešći našeg i dva prijateljska kluba. Prvi je odrzan 2022. Godine, a namera je da turnir postane tradicionalan.",
+    "links": [
+      {
+        "href": "https://chess-results.com/tnr609521.aspx?lan=1",
+        "text": "Turnir Tri kluba 2022"
+      },
+      { "href": "https://chess-results.com/tnr719224.aspx?lan=1" }
+    ],
+    "teams": []
+  },
+  {
+    "name": "Rapidi",
+    "description": "",
+    "links": [
+      {
+        "href": "https://chess-results.com/tnr392490.aspx?lan=1",
+        "text": "Rapid 'Gimnazijalac 2018' Bačka Palanka"
+      },
+      {
+        "href": "https://chess-results.com/tnr425307.aspx?lan=1&art=1",
+        "text": "Prolecni rapid 'Gimnazijalac 2019'"
+      }
+    ],
+    "teams": []
+  },
+  {
+    "name": "Blicevi",
+    "description": "",
+    "links": [
+      {
+        "href": "https://chess-results.com/tnr713466.aspx?lan=1",
+        "text": "Novogodišnji cuger 'Gimnazijalac' 2022"
+      },
+      {
+        "href": "https://chess-results.com/tnr698151.aspx?lan=1",
+        "text": "Blic turnir šah kluba 'Gimnazijalac' Bačka Palanka"
+      }
+    ],
+    "teams": []
+  }
+]

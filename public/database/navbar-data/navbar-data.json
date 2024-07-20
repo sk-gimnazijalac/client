@@ -1,6 +1,6 @@
 [
-  { "name": "Početna", "link": "/" },
-  { "name": "Novosti", "link": "/novosti" },
-  { "name": "Igrači", "link": "/igraci" },
-  { "name": "Takmičenja", "link": "/takmicenja" }
+  { "name": "Početna", "link": "/", "icon": "/chess-knight-white.svg" },
+  { "name": "Novosti", "link": "/novosti", "icon":  "/news-white.svg"},
+  { "name": "Igrači", "link": "/igraci", "icon": "/people-white.svg" },
+  { "name": "Takmičenja", "link": "/takmicenja", "icon": "/medal-white.svg"}
 ]

@@ -1,16 +1,19 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import Links from '../public/database/navbar-data/navbar-data.json'
-
+import Image from 'next/image';
+ 
 const Navbar = () => {
   const [open, setOpen] = useState(false)
 
+  
+
   return (
     <header className="shadow-md w-full fixed top-0 left-0 z-20 ">
-      <div className="nav-background-color md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
+      <div className="bg-orange md:flex items-center justify-between bg-white py-4 md:px-10 px-7">
         <div className="font-bold text-2xl cursor-pointer flex items-center font-[Poppins] text-gray-800">
           <Link href="/">
-            <span className="text-xl text-color-header-footer mr-1 uppercase font-mono">
+            <span className="text-xl text-color-header-footer mr-1 uppercase">
               Š.K. Gimnazijalac
             </span>
           </Link>
@@ -24,14 +27,15 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={` md:flex md:items-center nav-background-color md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  shadow-lg md:shadow-none ${
+          className={` md:flex md:items-center bg-orange md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9  shadow-lg md:shadow-none ${
             open ? 'top-12 h-screen ' : 'top-[-490px]'
           }`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:ml-4 text-xl md:my-0 my-7">
+            <li key={link.name} className="md:ml-4 text-xl md:my-0 my-7 flex gap-2">
+              <Image src={link.icon} alt="icon" height={15} width={15}/> 
               <Link key={link.name} href={`${link.link}`}>
-                <a className="text-color-header-footer hover:text-gray-400 duration-500">
+                <a className="text-color-header-footer hover:text-gray-400 duration-500 text-base">
                   {link.name}
                 </a>
               </Link>

@@ -13,7 +13,7 @@ export default function SinglePost() {
   }
 
   return Posts[postsIndex] ? (
-    <div className="w-full h-auto lg:p-12 text-center">
+    <div className="w-full h-auto lg:p-12 text-center bg-white">
       <h1 className="mb-6">{Posts[postsIndex].title}</h1>
       <div className="flex justify-center my-6">
         <h4 className="text-center w-2/3 font-semibold">

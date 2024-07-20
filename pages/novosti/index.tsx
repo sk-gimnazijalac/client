@@ -14,11 +14,11 @@ const Novosti: NextPage = () => {
       <main className="app-background-color">
         <Layout>
           <h1 className="text-center my-6">Sve novosti</h1>
-          <div className="flex flex-col md:flex-row my-16 gap-6 items-center justify-center md:flex-wrap">
+          <div className="flex flex-col md:flex-row my-16 mx-6 gap-12 items-center justify-center md:flex-wrap">
             {posts.map((value) => {
               return (
                 <div
-                  className="max-w-sm rounded overflow-hidden shadow-2xl lg:h-[550px] relative card-bg-color"
+                  className="max-w-sm rounded overflow-hidden shadow-2xl lg:h-[550px] relative card-bg-color transform transition duration-500 hover:scale-110"
                   key={`posts-wrapper-${value.key}`}
                 >
                   <div className="h-[200px] lg:min-h-[300px] relative">
@@ -30,15 +30,15 @@ const Novosti: NextPage = () => {
                     />
                   </div>
                   <div className="px-6 py-4 lg:min-h-[200px]">
-                    <div className="font-bold text-xl mb-2 text-color">
+                    <div className="font-bold text-xl mb-2 text-black">
                       {value.title}
                     </div>
-                    <p className="text-gray-700 text-base text-color">
+                    <p className="text-gray-700 text-base text-black">
                       {value.shortDescription}
                     </p>
                   </div>
                   <Link href={`/post/${value.key}`}>
-                    <p className="px-6 py-2 lg:py-0 text-color cursor-pointer">
+                    <p className="px-6 py-2 lg:py-0 text-black cursor-pointer">
                       Procitaj vise -&gt;
                     </p>
                   </Link>

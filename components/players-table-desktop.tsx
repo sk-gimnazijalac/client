@@ -3,7 +3,7 @@ import players from './../public/database/players-page-data/players.json'
 const PlayersTableDesktop = () => {
   return (
     <div className="overflow-auto rounded-lg hidden md:block shadow">
-      <table className="m-auto w-full">
+      <table className="mx-auto my-6">
         <thead className="bg-gray-50 border-b-2 border-gray-200 ">
           <tr className="text-center">
             <th className="p-3 text-sm font-semibold tracking-wide ">
